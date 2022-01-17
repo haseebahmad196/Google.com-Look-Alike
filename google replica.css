@@ -1,0 +1,128 @@
+body{
+    font-family: Arial, sans-serif;
+   padding: 0 16px;
+} 
+nav{
+    text-align: right;
+}
+.menu-items{
+
+    font-size: 12px;
+    color: rgb(0,0,0,0.87);
+    text-decoration: none;
+    position: relative;
+    top: -8px;
+    margin-right: 16px;
+} 
+#dropdown-menu{
+
+    position: relative; 
+    top: -5px;
+    margin-right: 16px;
+}
+.menu-items:hover{
+    text-decoration: underline;
+
+}
+#profile-pic{
+    width: 32px;
+    height: 32px;
+    border-radius: 20px;
+} 
+
+section{
+    text-align: center;
+    padding-top: 9%;
+} 
+
+#google-logo{
+    width: 300px;
+    height: 200px;
+    
+
+} 
+#input-wrapper{
+    position: relative;
+    width: 582px;
+    display: inline-block;
+}
+#input-design{
+    font-size: 13px;
+ 
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+    
+    
+}
+#input-design:hover {
+    box-shadow: 0 1px 6px 0 rgb(32,33, 36,0.28);
+    border-color: rgb(red, green, blue);
+}
+#input-design:focus {
+    box-shadow: 0 1px 6px 0 rgb(32,33, 36,0.28);
+    border-color: rgb(red, green, blue);
+
+}
+
+
+#input-wrapper > img {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 28px;
+}
+.button-item{
+    padding: 12px;
+  
+    font-size: 14px;
+    height: 36px;
+    color: #222;
+    background-color: #f2f2f2;
+    margin-right: 10px;
+   border: 1px solid transparent;
+}
+.button-item:hover{
+    border: 1px solid  #c6c6c6;
+    box-shadow: #222;
+} 
+#app-dropdown{
+
+    width: 285px;
+    padding: 28px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgb(0, 0, 0,0.2);
+    position: absolute;
+    right: 90px;
+    display: none;
+}
+.app-items {
+   display: inline-block;
+   width: 84px;
+   text-align: center;
+}
+.app-items >img { 
+    width: 50px;
+    height: 50px;
+}
+.app-items > p{
+    color: rgb(0, 0, 0,0.87);
+    padding-top: 10px;
+    
+    
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .app-items:hover{
+        border: 0.1px solid rgb(0, 0, 0,0.87);
+        border-radius: 8px;
+    }
+    #dropdown-wrapper{
+        display: inline-block;
+    }
+    #dropdown-wrapper:hover #app-dropdown{
+        display: block;
+        
+    }
